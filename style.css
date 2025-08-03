@@ -1,0 +1,12 @@
+body { margin:0; font-family: sans-serif; background:#222; color:#eee; }
+#game-container { position:relative; margin:20px auto; width:400px; }
+.game-canvas { display:block; width:100%; background:#000; }
+.controls { text-align:center; margin-top:10px; }
+.control-btn { width:60px; height:60px; margin:5px; border-radius:50%;
+  background:#4CAF50; border:none; display:inline-flex;
+  align-items:center; justify-content:center; cursor:pointer;
+  transition: transform .1s;
+}
+.control-btn:active { transform: scale(0.9); }
+.control-btn svg { width:30px; height:30px; fill:#fff; }
+#themeToggle { position:absolute; top:10px; right:10px; }
